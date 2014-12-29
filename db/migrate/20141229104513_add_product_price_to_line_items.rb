@@ -1,7 +1,4 @@
-class AddProductPriceToLineItem < ActiveRecord::Migration
-  def change
-    add_column :line_items, :price, :decimal
-  end
+class AddProductPriceToLineItems < ActiveRecord::Migration
   def up
   	add_column :line_items, :price, :decimal, :precision => 8, :scale => 2
 
