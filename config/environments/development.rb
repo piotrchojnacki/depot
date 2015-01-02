@@ -39,5 +39,5 @@ Depot::Application.configure do
 #    user_name:            "dave", 
 #    password:             "secret", 
 #    enable_starttls_auto: true 
-  }
+#  }
 end
